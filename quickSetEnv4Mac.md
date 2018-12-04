@@ -99,3 +99,22 @@ source ~/.bashrc
 gradle教程
 
 http://www.cnblogs.com/davenkin/p/gradle-spring-boot.html
+
+
+
+idea Version: 2018.3 plugin搜索问题
+
+```
+perference--》Apperance&Behavior-->System Settings -->Updates 去除use secure connection
+```
+
+Alibaba代码规约插件使用 ideaJ
+
+```
+https://github.com/alibaba/p3c/wiki/IDEA%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3
+```
+
+
+
+
+

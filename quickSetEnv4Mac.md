@@ -94,3 +94,8 @@ source ~/.bashrc
 
 ```
 
+
+
+gradle教程
+
+http://www.cnblogs.com/davenkin/p/gradle-spring-boot.html

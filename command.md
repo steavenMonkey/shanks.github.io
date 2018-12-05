@@ -2,7 +2,7 @@
 
 # 常用命令总结
 
-##一、git命令
+##一、git
 
 ```
 ##删除缓冲区文件
@@ -46,10 +46,49 @@ export HOMEBREW_NO_AUTO_UPDATE=true
 ## 五、docker
 
 ```
-参考文章：http://tuohuang.info/setup-docker-on-mac-with-xhyve-without-gui#.XAdHkxMzbOQ
+参考文章：
+http://tuohuang.info/setup-docker-on-mac-with-xhyve-without-gui#.XAdHkxMzbOQ
+阿里云docker镜像加速
+	https://cr.console.aliyun.com/cn-hangzhou/mirrors
 ## mac 下安装docker xhyve 是为了摆脱VirtualBox设置和更新
 brew install docker docker-compose docker-machine xhyve docker-machine-driver-xhyve
 
+#查看所有的镜像
+docker images
+
+#pull镜像
+docker pull
+
+#docker ps 查看容器
+docker ps
+-a :显示所有的容器，包括未运行的。
+
+-f :根据条件过滤显示的内容。
+
+--format :指定返回值的模板文件。
+
+-l :显示最近创建的容器。
+
+-n :列出最近创建的n个容器。
+
+--no-trunc :不截断输出。
+
+-q :静默模式，只显示容器编号。
+
+-s :显示总的文件大小。
+
+
+#docker 删除容器
+docker container rm containerId
+
+#清理掉所有处于终止状态的容器
+docker container prune
+
+#docker 查看所有已经创建的包括终止状态的容器
+docker container ls -a
+
+#停止容器
+docker stop containerId
 
 ```
 

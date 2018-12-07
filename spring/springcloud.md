@@ -26,7 +26,7 @@ $ ./consul agent -dev
 
 ```
 
-![](images/springcloud/consul_init.png)
+![](../images/springcloud/consul_init.png)
 
 consul命令加入到系统命令
 
@@ -261,7 +261,7 @@ management:
 
 启动后，访问http://localhost:8500/ui，可以看到注册好的服务
 
-![](images/springcloud/consul_server.png)
+![](../images/springcloud/consul_server.png)
 
 ### 2.4、开发需要对外的Rest服务
 

@@ -269,7 +269,7 @@ public class AdminApplication {
 server.port=8000
 ```
 
-![](images/springbootmonitor/springboot_admin_server.png)
+![](../images/springbootmonitor/springboot_admin_server.png)
 
 ####2.2.2、新建一个spring-boot-admin client
 
@@ -320,11 +320,11 @@ client的启动类无需添加额外的注解，直接启动即可
 
 
 
-![](images/springbootmonitor/springboot_admin_server_client.png)
+![](../images/springbootmonitor/springboot_admin_server_client.png)
 
 
 
-![](images/springbootmonitor/springboot_admin_detail.png)
+![](../images/springbootmonitor/springboot_admin_detail.png)
 
 
 
@@ -673,11 +673,11 @@ docker run -p 9090:9090 -v /tmp/prometheus.yml:/etc/prometheus/prometheus.yml \
 
 启动日志
 
-![](images/springbootmonitor/prom_docker_start.png)
+![](../images/springbootmonitor/prom_docker_start.png)
 
 启动后访问 http://localhost:9090/targets
 
-![](images/springbootmonitor/prome_start_ui.png)
+![](../images/springbootmonitor/prome_start_ui.png)
 
 在prometheus提供的页面里可以在graph里配置一些监控图表。
 
@@ -702,4 +702,4 @@ docker run --name grafana -d -p 3000:3000 grafana/grafana
 
 配置好后的效果图
 
-![](images/springbootmonitor/graphna_ui.png)
+![](../images/springbootmonitor/graphna_ui.png)

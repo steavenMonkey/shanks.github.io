@@ -94,6 +94,8 @@ $ docker run -d --name=node1 --restart=always \
 > 集群搭建参考
 >
 > https://juejin.im/post/5b2a6b606fb9a00e594c676d
+>
+> https://blog.csdn.net/fenglailea/article/details/79098246
 
 
 

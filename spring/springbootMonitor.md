@@ -360,7 +360,7 @@ client的启动类无需添加额外的注解，直接启动即可
 
 ```groovy
 dependencies {
-    implementation("io.micromete:micrometer-registry-prometheus:1.0.6")
+    implementation("io.micrometer:micrometer-registry-prometheu:1.0.6")
     implementation('org.springframework.boot:spring-boot-starter-actuator')
 }
 ```

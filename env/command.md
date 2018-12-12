@@ -16,11 +16,13 @@ git rm -r --cached 文件名
 ##二、gradle
 
 ```
-#编译
+#编译生成wrapper文件夹
+./gradle wrapper
 ./gradlew build --stacktrace
 
 #此时将生成后缀为ipr的IntelliJ IDEA工程文件，在IntelliJ IDEA中直接打开(Open)该文件即可
 ./gradlew idea
+
 ```
 
 
@@ -30,6 +32,7 @@ git rm -r --cached 文件名
 ```
 #查看端口占用情况
 lsof -i:8080
+netstat -anl | grep 端口号
 ```
 
 

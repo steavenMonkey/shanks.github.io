@@ -139,6 +139,13 @@ https://github.com/alibaba/p3c/wiki/IDEA%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8%E6%
 
 
 
+## 11、Visual Paradigm 社区版安装
+
+```
+https://www.visual-paradigm.com/download/community.jsp
+激活码 liumai/877PK-M835F-XDJYQ-6SVQ5-FY856
+```
+
 
 
 

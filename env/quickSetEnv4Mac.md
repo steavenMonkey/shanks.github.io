@@ -33,6 +33,12 @@ brew cask install java8
 #安装git、maven
 brew install maven
 brew install git
+
+#配置javahome
+JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home
+PATH=$JAVA_HOME/bin:$PATH
+CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+
 ```
 
 
@@ -149,4 +155,17 @@ https://www.visual-paradigm.com/download/community.jsp
 
 
 
+
+## 12、github访问慢问题
+
+```
+1、用文本编辑器打开hosts文件
+2、访问ipaddress网站https://www.ipaddress.com/，查看网站对应的IP地址，输入网址则可查阅到对应的IP地址，这是一个查询域名映射关系的工具
+3、查询 github.global.ssl.fastly.net 和 github.com 两个地址
+多查几次，选择一个稳定，延迟较低的 ip 按如下方式添加到host文件的最后面
+保存hosts文件
+4、重启浏览器，或刷新DNS缓存，告诉电脑hosts文件已经修改，linux/mac执行sudo /etc/init.d/networking 5、restart命令；windows在cmd中输入ipconfig /flushdns命令即可。
+起飞！！！
+
+```
 

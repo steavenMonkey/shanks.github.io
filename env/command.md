@@ -90,6 +90,7 @@ brew install docker docker-compose docker-machine xhyve docker-machine-driver-xh
 
 #查看所有的镜像
 docker images
+docker rmi IMAGE_ID
 
 #pull镜像
 docker pull
@@ -139,6 +140,7 @@ docker run --name ofcms -p 8080:8080 26e8500c8e33
 
 docker exec -ti b40232682bea sh
 
+docker-compose -f docker-compose.yml up -d
 docker-compose -f docker-compose.yml restart
 ```
 
@@ -169,6 +171,12 @@ mysql.server start
 
 #终端连接命令
 mysql -u root -proot000000 -h 127.0.0.1 -P 3306 -D mysql
+
+mysql -u saas_skydon_user_02 -pskydon_ur_02_pd_34(8&6F3&+p -h rm-bp18g0150979o8v4t.mysql.rds.aliyuncs.com -P 3306 -D mysql
+
+#排查数据库最近的死锁情况
+show engine innodb status
+
 
     alter user root@localhost identified with mysql_native_password by 'root000000';
 CREATE USER 'ofcms'@'localhost' IDENTIFIED WITH mysql_native_password BY 'ofcms';
@@ -234,6 +242,8 @@ brew install redis
 建立连接
 本地连接 redis-cli
 远程连接 redis-cli -h host -p port -a password		redis-cli -h 192.168.1.253 -p 6369 -a Iindeed1008
+
+redis-cli -h r-bp1bb221647e0bf4.redis.rds.aliyuncs.com -p 6379 -a Bxh^redis!@#$9764^
 
 常用命令
 keys * 查询所有的键，会遍历所有的键值，复杂度O(n)

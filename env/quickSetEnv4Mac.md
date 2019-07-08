@@ -45,7 +45,7 @@ CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 
 ## 5、翻墙vpn购买和安装
 
-https://portal.shadowsocks.nu/index.php
+[https://home.shadowsocks.ch](https://home.shadowsocks.ch/)
 
 ## 6、设置~/.bash_profile
 
